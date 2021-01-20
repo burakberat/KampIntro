@@ -35,7 +35,7 @@ namespace Metodlar
 
             //encapsulation yeni bir parametre(stok adedi) atamamıza rağmen kodların hata vermemesi.
 
-            sepetManager.Ekle2("Armut", "Yeşil", 12);
+            //sepetManager.Ekle2("Armut", "Yeşil", 12);
 
         }
     }

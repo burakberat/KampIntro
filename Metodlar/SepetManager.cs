@@ -12,9 +12,9 @@ namespace Metodlar
 
         }
 
-        public void Ekle2 (string urunAdi, string aciklama, double fiyat) //bu kullanım ilkine göre hatalı bir kullanım!!!
-        {
-            Console.WriteLine("Sepete Eklendi: " + urunAdi + " " + aciklama + " " + fiyat);
-        }
+        //public void Ekle2 (string urunAdi, string aciklama, double fiyat) //bu kullanım ilkine göre hatalı bir kullanım!!!
+        //{
+        //    Console.WriteLine("Sepete Eklendi: " + urunAdi + " " + aciklama + " " + fiyat);
+        //}
     }
 }
