@@ -14,12 +14,17 @@ namespace ClassMetotDemo
         public void Listele(Musteri musteri)
         {
             Musteri[] musteriler = new Musteri[] { };
-            foreach (Musteri musteri12 in musteriler)
+            foreach (Musteri musteri1 in musteriler)
             {
                 Console.WriteLine(musteri.Ad);
                 Console.WriteLine(musteri.Soyad);
+                Console.WriteLine(musteri.Cinsiyet);
             }
             
+        }
+        public void Sil(Musteri musteri)
+        {
+            Console.WriteLine("Müşteri silindi: " + musteri.Ad + " " + musteri.Soyad);
         }
     }
 }
